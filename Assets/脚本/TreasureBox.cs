@@ -8,6 +8,9 @@ public class TreasureBox : MonoBehaviour
     private bool isOpen;    //是否打开
     private Animator anim;  //导入动画
 
+    public GameObject coin;     //金币（暂时用金币代替，后续还需要更改）
+    public float delayTime;     //延迟时间
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,8 +29,15 @@ public class TreasureBox : MonoBehaviour
             {
                 anim.SetTrigger("Opening");     //播放打开动画
                 isOpen = true;      //修改为true
+                Invoke("GenCoin", delayTime);   //延迟时间
             }
         }
+    }
+
+    //新增金币
+    void GenCoin()
+    {
+        Instantiate(coin, transform.position, Quaternion.identity);     //生成一个金币
     }
 
     //触发开始
