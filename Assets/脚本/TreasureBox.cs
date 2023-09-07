@@ -37,7 +37,10 @@ public class TreasureBox : MonoBehaviour
     //新增金币
     void GenCoin()
     {
-        Instantiate(coin, transform.position, Quaternion.identity);     //生成一个金币
+        for (int i = 0; i <= 10; i++)
+        {
+            Instantiate(coin, transform.position, Quaternion.identity);     //生成一个金币
+        }
     }
 
     //触发开始
