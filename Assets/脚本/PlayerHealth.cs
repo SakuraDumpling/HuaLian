@@ -8,13 +8,14 @@ public class PlayerHealth : MonoBehaviour
     public int health;  //血量
     public int Blinks;  //闪烁次数
     public float time;  //闪烁时间
-
+    public float hitBoxCdTime;  //受伤间隔
 
 
 
     private Renderer myRender;  //用来存储显示组件
     private Animator anim;  //获取角色动画
     private ScreenFlash sf;     //获取
+    private PolygonCollider2D polygonCollider2D;    //获取多边形碰撞器
 
     private PlayerController playerController;  //获得控制的脚本
 
@@ -32,6 +33,7 @@ public class PlayerHealth : MonoBehaviour
 
         rb2d = GetComponent<Rigidbody2D>();     //调用玩家刚体
         playerController = GetComponent<PlayerController>();    //初始化调用PlayerController脚本
+        polygonCollider2D = GetComponent<PolygonCollider2D>();    //初始化多边形碰撞器
 
     }
 
@@ -61,6 +63,8 @@ public class PlayerHealth : MonoBehaviour
             StartCoroutine(Death());  //8秒后隐藏玩家项目
         }
         BlinkPlayer(Blinks, time);  //调用闪烁
+        polygonCollider2D.enabled = false;  //受到伤害后将碰撞体设为不可见
+        StartCoroutine(ShowPlayerHitBox());     //启动cd的协程
     }
 
     //闪烁函数，参数是次数以及时间
@@ -90,6 +94,16 @@ public class PlayerHealth : MonoBehaviour
 
     }
 
+    //用于检测伤害多边形碰撞器伤害间隔的写成
+    IEnumerator ShowPlayerHitBox()
+    {
+        yield return new WaitForSeconds(hitBoxCdTime);   //等待时间
+        if (health > 0)
+        {
+            polygonCollider2D.enabled = true;   //重新显示这个碰撞体
+        }
+    }
+
     //复活函数
     public void Revive()
     {
@@ -98,6 +112,7 @@ public class PlayerHealth : MonoBehaviour
         health = HealthBar.HealthCurrent;           //重新将生命值设为最大值    
         GameCortroller.isGameAlive = true; //将状态转为true
         rb2d.velocity = new Vector2(5, 5);      //将玩家的速度恢复，反正输入的也是，就是之后如果要在unity里该就麻烦了
+        polygonCollider2D.enabled = true;       //多边形碰撞器显示
         gameObject.SetActive(true);     //接触玩家的隐藏
     }
 
