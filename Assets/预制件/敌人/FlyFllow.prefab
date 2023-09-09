@@ -59,7 +59,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8012639592053914686}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.12, y: 2.43, z: -2.4890096}
+  m_LocalPosition: {x: -17.78, y: 4, z: -2.4890096}
   m_LocalScale: {x: 0.76869386, y: 0.76869386, z: 0.76869386}
   m_Children: []
   m_Father: {fileID: 8012639592205616227}
@@ -194,6 +194,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02349ab3a16109142a364d3d24576696, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 1
+  damage: 1
+  flashTime: 0.2
+  dropCoin: {fileID: 0}
+  speed: 2
+  startWaitTime: 0.5
+  movePos: {fileID: 8012639591909483437}
+  leftDownPos: {fileID: 8012639593266791175}
+  rightUpPos: {fileID: 8012639592640659578}
+  chaseSpeed: 3
+  radius: 15
 --- !u!1 &8012639592205616224
 GameObject:
   m_ObjectHideFlags: 0
