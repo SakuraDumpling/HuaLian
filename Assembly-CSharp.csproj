@@ -57,6 +57,7 @@
     <Compile Include="Assets\脚本\CameraFollow.cs" />
     <Compile Include="Assets\脚本\CoinItem.cs" />
     <Compile Include="Assets\脚本\CoinUI.cs" />
+    <Compile Include="Assets\脚本\DoorToNextLevel.cs" />
     <Compile Include="Assets\脚本\Enemy.cs" />
     <Compile Include="Assets\脚本\EnemyBat.cs" />
     <Compile Include="Assets\脚本\EnemySmartBat.cs" />
