@@ -50,11 +50,11 @@ TagManager:
   - name: "\u540E"
     uniqueID: 2560138097
     locked: 0
-  - name: Item
-    uniqueID: 222258949
-    locked: 0
   - name: "\u4E2D"
     uniqueID: 3426988425
+    locked: 0
+  - name: Item
+    uniqueID: 222258949
     locked: 0
   - name: "\u524D"
     uniqueID: 1349104723
