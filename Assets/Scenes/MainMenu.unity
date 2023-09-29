@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -217,6 +217,54 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 322250269, guid: 2fcf750bff847154b9617bd16409aee5, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 854822378, guid: 2fcf750bff847154b9617bd16409aee5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025699370, guid: 2fcf750bff847154b9617bd16409aee5, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 269.52002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025699370, guid: 2fcf750bff847154b9617bd16409aee5, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 66.96353
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025699370, guid: 2fcf750bff847154b9617bd16409aee5, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 237.00006
+      objectReference: {fileID: 0}
+    - target: {fileID: 1025699370, guid: 2fcf750bff847154b9617bd16409aee5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -3.899994
+      objectReference: {fileID: 0}
+    - target: {fileID: 1463690535, guid: 2fcf750bff847154b9617bd16409aee5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042157258, guid: 2fcf750bff847154b9617bd16409aee5, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 269.52002
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042157258, guid: 2fcf750bff847154b9617bd16409aee5, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 66.96353
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042157258, guid: 2fcf750bff847154b9617bd16409aee5, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 237
+      objectReference: {fileID: 0}
+    - target: {fileID: 2042157258, guid: 2fcf750bff847154b9617bd16409aee5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -97
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069763669, guid: 2fcf750bff847154b9617bd16409aee5, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 5391330487539010260, guid: 2fcf750bff847154b9617bd16409aee5,
         type: 3}
       propertyPath: m_Name
