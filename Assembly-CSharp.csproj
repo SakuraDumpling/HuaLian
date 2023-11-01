@@ -53,6 +53,7 @@
     <UnityVersion>2019.4.34f1c1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\脚本\AudioManager.cs" />
     <Compile Include="Assets\脚本\BackGround.cs" />
     <Compile Include="Assets\脚本\Base.cs" />
     <Compile Include="Assets\脚本\BaseMap.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="Assets\脚本\PlayerHealth.cs" />
     <Compile Include="Assets\脚本\ScreenFlash.cs" />
     <Compile Include="Assets\脚本\Sign.cs" />
+    <Compile Include="Assets\脚本\Sound.cs" />
     <Compile Include="Assets\脚本\Spike1.cs" />
     <Compile Include="Assets\脚本\TreasureBox.cs" />
     <Compile Include="Assets\脚本\XMovingPlatform.cs" />
