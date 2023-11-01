@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AudioManager
     - BackGround
     - Base
     - BaseMap
@@ -118,6 +119,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
@@ -144,6 +149,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14664}
     - Class: 114
       Script: {instanceID: 14796}
+    - Class: 114
+      Script: {instanceID: 26908}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -174,6 +181,10 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -248,25 +259,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 15724}
     - Class: 114
-      Script: {instanceID: 16220}
+      Script: {instanceID: 16222}
     - Class: 114
-      Script: {instanceID: 16324}
+      Script: {instanceID: 16326}
     - Class: 114
-      Script: {instanceID: 16702}
+      Script: {instanceID: 16704}
     - Class: 114
-      Script: {instanceID: 16988}
+      Script: {instanceID: 16990}
     - Class: 114
-      Script: {instanceID: 17056}
+      Script: {instanceID: 17058}
     - Class: 114
-      Script: {instanceID: 17356}
+      Script: {instanceID: 17358}
     - Class: 114
-      Script: {instanceID: 17360}
+      Script: {instanceID: 17362}
     - Class: 114
-      Script: {instanceID: 17454}
+      Script: {instanceID: 17456}
     - Class: 114
-      Script: {instanceID: 17628}
+      Script: {instanceID: 17630}
     - Class: 114
-      Script: {instanceID: 17636}
+      Script: {instanceID: 17638}
+    - Class: 114
+      Script: {instanceID: 26908}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -311,6 +324,10 @@ ScriptsOnlyBuild:
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
@@ -373,15 +390,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 15918}
     - Class: 114
-      Script: {instanceID: 16110}
+      Script: {instanceID: 16112}
     - Class: 114
-      Script: {instanceID: 16370}
+      Script: {instanceID: 16372}
     - Class: 114
-      Script: {instanceID: 16488}
+      Script: {instanceID: 16490}
     - Class: 114
-      Script: {instanceID: 17326}
+      Script: {instanceID: 17328}
     - Class: 114
-      Script: {instanceID: 17552}
+      Script: {instanceID: 17554}
+    - Class: 114
+      Script: {instanceID: 26908}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -436,6 +455,10 @@ ScriptsOnlyBuild:
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
@@ -496,17 +519,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 15918}
     - Class: 114
-      Script: {instanceID: 16110}
+      Script: {instanceID: 16112}
     - Class: 114
-      Script: {instanceID: 16370}
+      Script: {instanceID: 16372}
     - Class: 114
-      Script: {instanceID: 16440}
+      Script: {instanceID: 16442}
     - Class: 114
-      Script: {instanceID: 17326}
+      Script: {instanceID: 17328}
     - Class: 114
-      Script: {instanceID: 17528}
+      Script: {instanceID: 17530}
     - Class: 114
-      Script: {instanceID: 17552}
+      Script: {instanceID: 17554}
+    - Class: 114
+      Script: {instanceID: 26908}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1926,6 +1951,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 92d2a5c7b282c3d558fa6caa75f6144d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AudioManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity

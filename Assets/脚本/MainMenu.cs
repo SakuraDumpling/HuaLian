@@ -10,7 +10,12 @@ public class MainMenu : MonoBehaviour
     {
         //加载第一个场景
         SceneManager.LoadScene(1);
+        //SceneManager.LoadScene("Scene1");     //这一句是固定打开第一个场景的意思
+        Debug.Log("开始游戏");
+
     }
+
+    
 
     //退出游戏
     public void QuitGame()

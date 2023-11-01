@@ -22,6 +22,6 @@ public class HealthBar : MonoBehaviour
     void Update()
     {
         healthBar.fillAmount = (float)HealthCurrent / (float)HealthMax;    //因为是浮点型，所以需要强制转换
-        healthText.text = HealthCurrent.ToString() + "/" + HealthMax.ToString();     //用文本显示出来
+        //healthText.text = HealthCurrent.ToString() + "/" + HealthMax.ToString();     //用文本显示出来
     }
 }
