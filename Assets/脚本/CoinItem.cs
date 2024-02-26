@@ -25,6 +25,7 @@ public class CoinItem : MonoBehaviour
             orther.GetType().ToString() == "UnityEngine.CapsuleCollider2D")
         {
             CoinUI.CurrentCoinQuantity += 1;    //数值+1，这里估计之后得重新设置一下，得往大的设计，才能存更多去买灯
+            AudioManager.Instance.PlaySFX("CollectCoin");   //音效
             Destroy(gameObject);    //删掉这个对象
         }
     }

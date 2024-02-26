@@ -8,13 +8,13 @@ public class DoorToNextLevel : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     //触发开始
@@ -22,8 +22,10 @@ public class DoorToNextLevel : MonoBehaviour
     {
         if (orther.gameObject.CompareTag("Player") && orther.GetType().ToString() == "UnityEngine.CapsuleCollider2D")
         {
+            AudioManager.Instance.musicSource.Stop();   //停止播放音乐
             //切换场景
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            AudioManager.Instance.PlayMusic("Start");   //重新播放
         }
     }
 }

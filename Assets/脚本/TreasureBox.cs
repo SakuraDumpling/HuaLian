@@ -28,6 +28,7 @@ public class TreasureBox : MonoBehaviour
             if (canOpen && !isOpen)
             {
                 anim.SetTrigger("Opening");     //播放打开动画
+                AudioManager.Instance.PlaySFX("OpenBox");   //音效
                 isOpen = true;      //修改为true
                 Invoke("GenCoin", delayTime);   //延迟时间
             }

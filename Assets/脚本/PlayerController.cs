@@ -75,6 +75,7 @@ public class PlayerController : MonoBehaviour
                 transform.localRotation = Quaternion.Euler(0, 180, 0);
             }
         }
+        
     }
 
     //跑步函数
@@ -86,6 +87,7 @@ public class PlayerController : MonoBehaviour
 
         bool PlayerHasXAxisSpeed = Mathf.Abs(myRigidbody.velocity.x) > Mathf.Epsilon;   //一个布尔类型的变量，代表玩家的x轴速度大于一个很小很小的值（不是0）
         myAnim.SetBool("Walk", PlayerHasXAxisSpeed);    //结合上一句的意思是如果满足x轴速度大于一个很小数，这个变量就是true
+        
     }
 
 
@@ -101,6 +103,7 @@ public class PlayerController : MonoBehaviour
                 Vector2 jumpVe1 = new Vector2(0.0f, jumpSpeed); //只需要y=0即可
                 myRigidbody.velocity = Vector2.up * jumpVe1;    //给一个方向
                 canDoubleJump = true;   //跳起后可以二段跳
+                AudioManager.Instance.PlaySFX("Jump");     //音效
             }
             else
             {

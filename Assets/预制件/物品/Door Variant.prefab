@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3759799853728359870}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a399f9cf10cdc941a3b2425067645bb, type: 3}
+  m_Script: {fileID: 11500000, guid: 093d72b7162c4e94a85b9e60cd634487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &4340916211633722280
@@ -22,22 +22,7 @@ PrefabInstance:
     - target: {fileID: 581938795958695446, guid: bcb9ae0dec49e944382f555cbfaa1c9b,
         type: 3}
       propertyPath: m_Name
-      value: Door
-      objectReference: {fileID: 0}
-    - target: {fileID: 581938795958695447, guid: bcb9ae0dec49e944382f555cbfaa1c9b,
-        type: 3}
-      propertyPath: signText
-      value: "\u8FD9\u91CC\u662F\u6211\u7684\u4E16\u754C"
-      objectReference: {fileID: 0}
-    - target: {fileID: 581938795958695447, guid: bcb9ae0dec49e944382f555cbfaa1c9b,
-        type: 3}
-      propertyPath: dialogBox
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 581938795958695447, guid: bcb9ae0dec49e944382f555cbfaa1c9b,
-        type: 3}
-      propertyPath: dialogBoxText
-      value: 
+      value: Door Variant
       objectReference: {fileID: 0}
     - target: {fileID: 581938795958695912, guid: bcb9ae0dec49e944382f555cbfaa1c9b,
         type: 3}
@@ -110,8 +95,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 581938795958695447, guid: bcb9ae0dec49e944382f555cbfaa1c9b, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcb9ae0dec49e944382f555cbfaa1c9b, type: 3}
 --- !u!1 &3759799853728359870 stripped
 GameObject:
