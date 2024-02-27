@@ -164,8 +164,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3da665704a71d8240a1253f909b0c88b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coin: {fileID: 8206986126821294073, guid: d3a91ff16c76330479eeef34b1309e7e, type: 3}
-  delayTime: 0
+  coinPrefab: {fileID: 8206986126821294073, guid: d3a91ff16c76330479eeef34b1309e7e,
+    type: 3}
+  delayTime: 0.2
+  targetPosition: {fileID: 0}
+  flightTime: 1
 --- !u!1 &4734620861776717487
 GameObject:
   m_ObjectHideFlags: 0
