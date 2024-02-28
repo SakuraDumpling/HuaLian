@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
@@ -11,7 +9,7 @@ public class PauseMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -29,7 +27,8 @@ public class PauseMenu : MonoBehaviour
     public void Resume()
     {
         pauseMenuUI.SetActive(false);   //让菜单隐藏
-        Time.timeScale = 1.0f;          //
+        //UIManager.Instance.PaneIFadeIn();   //调用退出的函数
+        //Time.timeScale = 1.0f;          //
         GameIsPaused = false;           //将变量设为false
     }
 
@@ -37,7 +36,8 @@ public class PauseMenu : MonoBehaviour
     public void Pause()
     {
         pauseMenuUI.SetActive(true);    //让菜单显示
-        Time.timeScale = 0.1f;          //
+        UIManager.Instance.PaneIFadeIn();   //调用ui出现的动效
+        //Time.timeScale = 0.1f;          //
         GameIsPaused = true;           //将变量设为true
     }
 

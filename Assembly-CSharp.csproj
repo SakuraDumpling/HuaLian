@@ -80,6 +80,7 @@
     <Compile Include="Assets\脚本\Spike1.cs" />
     <Compile Include="Assets\脚本\TreasureBox.cs" />
     <Compile Include="Assets\脚本\TreasureDialogue.cs" />
+    <Compile Include="Assets\脚本\UIManager.cs" />
     <Compile Include="Assets\脚本\VoiceUIController.cs" />
     <Compile Include="Assets\脚本\XMovingPlatform.cs" />
   </ItemGroup>
