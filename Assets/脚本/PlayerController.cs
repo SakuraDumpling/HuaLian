@@ -19,6 +19,11 @@ public class PlayerController : MonoBehaviour
     private BoxCollider2D myFeet;   //获取我的脚的盒状碰撞体
     public Vector3 initialPosition;    //设置一个存放初始位置的变量
 
+    //修复二段跳bug
+    public float jumpForce;     //跳跃的力
+    public int maxJumps;        //最大跳跃次数
+    private int jumps;          //跳跃计数
+
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +33,8 @@ public class PlayerController : MonoBehaviour
         myFeet = GetComponent<BoxCollider2D>(); //获取盒状碰撞体
         initialPosition = transform.position;   //将现在的位置赋给这个变量，作为初始点
         respawnPoint = transform.position;      //初始化将出生位置赋值给它
+
+        jumps = maxJumps;   //让计时器等于跳跃的最大次数
     }
 
     // Update is called once per frame
@@ -40,7 +47,8 @@ public class PlayerController : MonoBehaviour
         {
             Run();
             Filp();
-            Jump();
+            //Jump();
+            Jump2();
             //Attack();
             CheckGround();
             SwitchAnimation();
@@ -118,6 +126,30 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
+    //修复二段跳无限跳跃的bug
+    public void Jump2()
+    {
+        if (Input.GetButtonUp("Jump"))
+        {
+            Debug.Log(jumps);
+            if (jumps > 0)
+            {
+                myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, jumpForce);
+                jumps--;
+                myAnim.SetBool("Jump", true);
+                AudioManager.Instance.PlaySFX("Jump");     //音效
+                Debug.Log(jumps);
+            }
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        jumps = maxJumps;
+    }
+
+
 
 
     ////攻击函数

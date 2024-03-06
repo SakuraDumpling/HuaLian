@@ -5,7 +5,7 @@ using UnityEngine;
 public class HideSpike : MonoBehaviour
 {
     public GameObject hideSpikeBox;     //地刺框
-    public float time;      //地刺时间
+    public float time;      //地刺出现时间
 
     private Animator anim;      //获取动画
 

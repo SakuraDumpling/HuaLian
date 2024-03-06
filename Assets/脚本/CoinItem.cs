@@ -1,9 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.UI;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CoinItem : MonoBehaviour
 {
+    [SerializeField] private Transform coinParent;  //序列化一个位置用来存放金币位置
+    [SerializeField] private Image coinPrefab;  //
+    [SerializeField] private int positionMin, positionMax;  //随机位置的最大值和最小值
+    [SerializeField] private int rotationMin, rotationMax;  //随机角度的最大值最小值
+    //[SerializeField] private Text counterText;    //教程里用到的那个插件pro版里的文字
     // Start is called before the first frame update
     void Start()
     {

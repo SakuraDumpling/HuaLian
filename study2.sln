@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{D1371715-BD84-D58A-F91F-F5555BFCAB7B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{CCDB46D5-66EF-6CEB-BFCB-BD43730EF24C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParadoxNotion", "ParadoxNotion.csproj", "{471B69B9-49BF-8C6C-E259-77174D5DB318}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodeCanvas", "NodeCanvas.csproj", "{98DE65E5-1C10-C9FE-9D19-54CEA050C31D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{D1371715-BD84-D58A-F91F-F5555BFCAB7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{CCDB46D5-66EF-6CEB-BFCB-BD43730EF24C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,14 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D1371715-BD84-D58A-F91F-F5555BFCAB7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D1371715-BD84-D58A-F91F-F5555BFCAB7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D1371715-BD84-D58A-F91F-F5555BFCAB7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D1371715-BD84-D58A-F91F-F5555BFCAB7B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CCDB46D5-66EF-6CEB-BFCB-BD43730EF24C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CCDB46D5-66EF-6CEB-BFCB-BD43730EF24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CCDB46D5-66EF-6CEB-BFCB-BD43730EF24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CCDB46D5-66EF-6CEB-BFCB-BD43730EF24C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{471B69B9-49BF-8C6C-E259-77174D5DB318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{471B69B9-49BF-8C6C-E259-77174D5DB318}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{471B69B9-49BF-8C6C-E259-77174D5DB318}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -31,6 +23,14 @@ Global
 		{98DE65E5-1C10-C9FE-9D19-54CEA050C31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98DE65E5-1C10-C9FE-9D19-54CEA050C31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98DE65E5-1C10-C9FE-9D19-54CEA050C31D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1371715-BD84-D58A-F91F-F5555BFCAB7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1371715-BD84-D58A-F91F-F5555BFCAB7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1371715-BD84-D58A-F91F-F5555BFCAB7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1371715-BD84-D58A-F91F-F5555BFCAB7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCDB46D5-66EF-6CEB-BFCB-BD43730EF24C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCDB46D5-66EF-6CEB-BFCB-BD43730EF24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCDB46D5-66EF-6CEB-BFCB-BD43730EF24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCDB46D5-66EF-6CEB-BFCB-BD43730EF24C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

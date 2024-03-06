@@ -5,6 +5,8 @@ using DG.Tweening;      //导入DoTwwen插件
 using System.Diagnostics;
 using UnityEngine.Animations;
 using UnityEngine.Diagnostics;
+using UnityEngine.UI;
+using System.Security.Principal;
 
 public class TreasureBox : MonoBehaviour
 {
@@ -22,6 +24,8 @@ public class TreasureBox : MonoBehaviour
     private Vector2 c;  //将目标位置转换成vector2
     private float centreSpeed;      //中心点速度
     private float speed;    //弹射的速度
+
+    
 
     // Start is called before the first frame update
     void Start()
@@ -99,4 +103,6 @@ public class TreasureBox : MonoBehaviour
         var bc = Vector2.Lerp(b, c, t);
         return Vector2.Lerp(ab, bc, t);
     }
+
 }
+    
