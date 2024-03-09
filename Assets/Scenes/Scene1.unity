@@ -7180,7 +7180,7 @@ PrefabInstance:
     - target: {fileID: 8075734936421958580, guid: 8be5269833637e645be5b169b06d502a,
         type: 3}
       propertyPath: maxJumps
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8075734936421958580, guid: 8be5269833637e645be5b169b06d502a,
         type: 3}
