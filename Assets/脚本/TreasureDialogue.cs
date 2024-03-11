@@ -14,7 +14,7 @@ public class TreasureDialogue : MonoBehaviour
 
     void Update()
     {
-        //如果获取到的按键为I
+        //如果获取到的按键为E
         if (Input.GetKeyDown(KeyCode.E))
         {
             dialogueTree.StartDialogue();   //调取打开对话

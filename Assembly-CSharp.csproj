@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>7.3</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,9 +53,6 @@
     <UnityVersion>2019.4.34f1c1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Assets\脚本\AudioManager.cs" />
     <Compile Include="Assets\脚本\BackGround.cs" />
     <Compile Include="Assets\脚本\Base.cs" />
@@ -63,12 +60,14 @@
     <Compile Include="Assets\脚本\CameraFollow.cs" />
     <Compile Include="Assets\脚本\CoinItem.cs" />
     <Compile Include="Assets\脚本\CoinUI.cs" />
+    <Compile Include="Assets\脚本\CutsceneCortroller.cs" />
     <Compile Include="Assets\脚本\DoorToNextLevel.cs" />
     <Compile Include="Assets\脚本\DoorToPreviousLevel.cs" />
     <Compile Include="Assets\脚本\Enemy.cs" />
     <Compile Include="Assets\脚本\EnemyBat.cs" />
     <Compile Include="Assets\脚本\EnemySmartBat.cs" />
     <Compile Include="Assets\脚本\GameCortroller.cs" />
+    <Compile Include="Assets\脚本\GameStart.cs" />
     <Compile Include="Assets\脚本\HealthBar.cs" />
     <Compile Include="Assets\脚本\HideSpike.cs" />
     <Compile Include="Assets\脚本\HideSpikeBox.cs" />
