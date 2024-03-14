@@ -355,6 +355,7 @@
 "Assets\脚本\PlayerController.cs"
 "Assets\脚本\PlayerHealth.cs"
 "Assets\脚本\Randombox.cs"
+"Assets\脚本\SceneLoader.cs"
 "Assets\脚本\ScreenFlash.cs"
 "Assets\脚本\Sign.cs"
 "Assets\脚本\Sound.cs"

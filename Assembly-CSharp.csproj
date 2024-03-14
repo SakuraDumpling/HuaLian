@@ -77,6 +77,7 @@
     <Compile Include="Assets\脚本\PlayerController.cs" />
     <Compile Include="Assets\脚本\PlayerHealth.cs" />
     <Compile Include="Assets\脚本\Randombox.cs" />
+    <Compile Include="Assets\脚本\SceneLoader.cs" />
     <Compile Include="Assets\脚本\ScreenFlash.cs" />
     <Compile Include="Assets\脚本\Sign.cs" />
     <Compile Include="Assets\脚本\Sound.cs" />

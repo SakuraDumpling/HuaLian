@@ -26,4 +26,7 @@ public class InitButton : MonoBehaviour
             lastSelect = EventSystem.current.currentSelectedGameObject;
         }
     }
+
+    //图片缓动加载
+
 }

@@ -23,7 +23,8 @@ public class DoorToPreviousLevel : MonoBehaviour
         if (orther.gameObject.CompareTag("Player") && orther.GetType().ToString() == "UnityEngine.CapsuleCollider2D")
         {
             //切换场景
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            SceneLoader.Instance.FadeIn(3);     //切换到之前的关卡1
         }
     }
 }

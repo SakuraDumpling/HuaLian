@@ -24,7 +24,8 @@ public class DoorToNextLevel : MonoBehaviour
         {
             AudioManager.Instance.musicSource.Stop();   //停止播放音乐
             //切换场景
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneLoader.Instance.FadeNext();        //调用前往下一关卡的函数
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             AudioManager.Instance.PlayMusic("Start");   //重新播放
         }
     }
