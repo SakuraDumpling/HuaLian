@@ -31,8 +31,8 @@ public class SceneLoader : MonoBehaviour
     void Start()
     {
         GameObject.DontDestroyOnLoad(this.gameObject);  //将过场的这个UI画布设置为不会被销毁
-        GameObject.DontDestroyOnLoad(this.eventObj);    //将system保存
-        GameObject.DontDestroyOnLoad(this.canvas);
+        //GameObject.DontDestroyOnLoad(this.eventObj);    //将system保存
+        //GameObject.DontDestroyOnLoad(this.canvas);
     }
 
     // Update is called once per frame

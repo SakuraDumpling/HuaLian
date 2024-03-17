@@ -132,14 +132,14 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetButtonUp("Jump"))
         {
-            Debug.Log(jumps);
+            //Debug.Log(jumps);
             if (jumps > 0)
             {
                 myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, jumpForce);
                 jumps--;
                 myAnim.SetBool("Jump", true);
                 AudioManager.Instance.PlaySFX("Jump");     //音效
-                Debug.Log(jumps);
+                //Debug.Log(jumps);
             }
         }
     }
