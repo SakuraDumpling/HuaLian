@@ -405,7 +405,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1024857808}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -422,8 +422,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0}
-  m_SizeDelta: {x: 0, y: -0.0077819824}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1024857812
 CanvasRenderer:
@@ -1147,7 +1147,7 @@ GameObject:
   - component: {fileID: 3763167670574350004}
   - component: {fileID: 6156007209866216312}
   - component: {fileID: 9025028012356838116}
-  - component: {fileID: 2339924528583249177}
+  - component: {fileID: 3356207407366979882}
   m_Layer: 5
   m_Name: Player
   m_TagString: Untagged
@@ -1211,7 +1211,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2339924528583249177
+--- !u!114 &3356207407366979882
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1223,7 +1223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1afde25dad4b4ee4c98bfef47b989a69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 3
+  floatUnit: 3
   timFloat: 1.2
 --- !u!1 &551714470000715851
 GameObject:
@@ -1456,7 +1456,7 @@ GameObject:
   - component: {fileID: 2271668759540317076}
   - component: {fileID: 6825558856309113796}
   - component: {fileID: 7227054208432843909}
-  - component: {fileID: 5043086774760818579}
+  - component: {fileID: 7412162186166617100}
   m_Layer: 5
   m_Name: HLamp
   m_TagString: Untagged
@@ -1520,7 +1520,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &5043086774760818579
+--- !u!114 &7412162186166617100
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1529,11 +1529,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1771788570460865068}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1afde25dad4b4ee4c98bfef47b989a69, type: 3}
+  m_Script: {fileID: 11500000, guid: a77df73773e1d0948976f20daff8ccd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 6
-  timFloat: 3
+  moveUnit: -300
+  appearTime: 3
+  rectTransform: {fileID: 2271668759540317076}
+  img: {fileID: 7227054208432843909}
 --- !u!1 &2029050786084609726
 GameObject:
   m_ObjectHideFlags: 0
@@ -1727,7 +1729,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2e870e6dcb061a2428126a23887a9426, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 007b57a4f3979db41ad6b666d1287b50, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2690,7 +2692,7 @@ GameObject:
   - component: {fileID: 370481291837601546}
   - component: {fileID: 6780610213896856148}
   - component: {fileID: 5981801174644546868}
-  - component: {fileID: 3082852769347667087}
+  - component: {fileID: 8674325294850123027}
   m_Layer: 5
   m_Name: QLamp
   m_TagString: Untagged
@@ -2754,7 +2756,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &3082852769347667087
+--- !u!114 &8674325294850123027
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2766,7 +2768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1afde25dad4b4ee4c98bfef47b989a69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 2
+  floatUnit: 2
   timFloat: 2
 --- !u!1 &5298593940099539145
 GameObject:
@@ -3939,7 +3941,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1afde25dad4b4ee4c98bfef47b989a69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 10
+  floatUnit: 10
   timFloat: 1.2
 --- !u!1 &6543949976830277274
 GameObject:
@@ -4392,7 +4394,7 @@ GameObject:
   - component: {fileID: 1986931374426127700}
   - component: {fileID: 2264274617883803539}
   - component: {fileID: 4361534541184423831}
-  - component: {fileID: 4402843100492420285}
+  - component: {fileID: 2754940743936840832}
   m_Layer: 5
   m_Name: Butterfly
   m_TagString: Untagged
@@ -4456,7 +4458,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &4402843100492420285
+--- !u!114 &2754940743936840832
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4468,8 +4470,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1afde25dad4b4ee4c98bfef47b989a69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 10
-  timFloat: 1.2
+  floatUnit: 2
+  timFloat: 2
 --- !u!1 &8967951827771816098
 GameObject:
   m_ObjectHideFlags: 0
