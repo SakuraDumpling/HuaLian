@@ -17,7 +17,7 @@ public class MainMenuFloat : MonoBehaviour
     void Start()
     {
         //测试用
-        //Float();
+        MainMenuFloat.Float(floatUnit, timFloat, imgTransform);
     }
 
     // Update is called once per frame
@@ -29,10 +29,11 @@ public class MainMenuFloat : MonoBehaviour
     public static void Float(float floatUnit, float timFloat, GameObject imgTransform)
     {
         //初始设为            （原始的x，原始y+浮动的数值）
-        upFloat = new Vector2(imgTransform.transform.localPosition.x, imgTransform.transform.localPosition.y + floatUnit);
-        downFloat = new Vector2(imgTransform.transform.localPosition.x, imgTransform.transform.localPosition.y - floatUnit);
-
+        upFloat = new Vector2(imgTransform.transform.localPosition.x, imgTransform.transform.localPosition.y);
+        downFloat = new Vector2(imgTransform.transform.localPosition.x, imgTransform.transform.localPosition.y - floatUnit *2);
         //缓动
         DOTween.To(() => upFloat, x => imgTransform.transform.localPosition = x, downFloat, timFloat).SetEase(Ease.Linear).SetLoops(-1, LoopType.Yoyo);
+        //Debug.Log("当前位置");
+        //Debug.Log(imgTransform.transform.localPosition);
     }
 }

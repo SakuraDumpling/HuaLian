@@ -53,7 +53,8 @@
     <UnityVersion>2019.4.34f1c1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\脚本\AnimController.cs" />
+    <Compile Include="Assets\脚本\AnimControllerX.cs" />
+    <Compile Include="Assets\脚本\AnimControllerY.cs" />
     <Compile Include="Assets\脚本\AnimEnter.cs" />
     <Compile Include="Assets\脚本\AudioManager.cs" />
     <Compile Include="Assets\脚本\BackGround.cs" />
