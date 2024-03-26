@@ -477,10 +477,20 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1146630066959390815, guid: 2fcf750bff847154b9617bd16409aee5,
+        type: 3}
+      propertyPath: appearTime
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3521695644186613178, guid: 2fcf750bff847154b9617bd16409aee5,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328840951438707067, guid: 2fcf750bff847154b9617bd16409aee5,
+        type: 3}
+      propertyPath: appearTime
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5391330487539010260, guid: 2fcf750bff847154b9617bd16409aee5,
         type: 3}
@@ -596,6 +606,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: QuitGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 8142865930236396833, guid: 2fcf750bff847154b9617bd16409aee5,
+        type: 3}
+      propertyPath: appearTime
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2fcf750bff847154b9617bd16409aee5, type: 3}

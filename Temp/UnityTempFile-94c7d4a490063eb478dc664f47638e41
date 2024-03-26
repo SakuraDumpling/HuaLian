@@ -1,0 +1,581 @@
+/target:library
+/out:Temp/NodeCanvas.dll
+/nowarn:0169
+/nowarn:0649
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:Library/ScriptAssemblies/ParadoxNotion.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.AutoStreamingModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEditor.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+/reference:Assets/Plugins/Demigiant/DOTween/DOTween.dll
+/reference:Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll
+/reference:"F:/学习类/游戏类/花怜游戏demo存放地/study2/Library/PackageCache/com.unity.collab-proxy@1.14.4/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+/reference:"F:/学习类/游戏类/花怜游戏demo存放地/study2/Library/PackageCache/com.unity.collab-proxy@1.14.4/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+/reference:"F:/学习类/游戏类/花怜游戏demo存放地/study2/Library/PackageCache/com.unity.collab-proxy@1.14.4/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+/reference:"F:/学习类/游戏类/花怜游戏demo存放地/study2/Library/PackageCache/com.unity.collab-proxy@1.14.4/Lib/Editor/PlasticSCM/unityplastic.dll"
+/reference:"F:/学习类/游戏类/花怜游戏demo存放地/study2/Library/PackageCache/com.unity.render-pipelines.core@7.3.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll"
+/reference:"D:/game/unity/Unity 2019.4.34f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll"
+/define:UNITY_2019_4_34
+/define:UNITY_2019_4
+/define:UNITY_2019
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:UNITY_2019_4_OR_NEWER
+/define:PLATFORM_ARCH_64
+/define:UNITY_64
+/define:UNITY_INCLUDE_TESTS
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_PHYSICS
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_UNET
+/define:ENABLE_LZMA
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_WWW
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:INCLUDE_DYNAMIC_GI
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:PLATFORM_SUPPORTS_MONO
+/define:RENDER_SOFTWARE_CURSOR
+/define:ENABLE_VIDEO
+/define:PLATFORM_STANDALONE
+/define:PLATFORM_STANDALONE_WIN
+/define:UNITY_STANDALONE_WIN
+/define:UNITY_STANDALONE
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_MOVIES
+/define:ENABLE_NETWORK
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CLUSTERINPUT
+/define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_MONO
+/define:NET_STANDARD_2_0
+/define:ENABLE_PROFILER
+/define:DEBUG
+/define:TRACE
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_IG
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_BURST_AOT
+/define:UNITY_TEAM_LICENSE
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:UNITY_POST_PROCESSING_STACK_V2
+/define:NODECANVAS
+/define:DOTWEEN
+/define:CSHARP_7_OR_LATER
+/define:CSHARP_7_3_OR_NEWER
+Assets\NodeCanvas\Editor\Commands.cs
+Assets\NodeCanvas\Editor\Drawers\StatementDrawer.cs
+Assets\NodeCanvas\Editor\Inspectors\ActionListPlayerInspector.cs
+Assets\NodeCanvas\Editor\Inspectors\BehaviourTreeOwnerInspector.cs
+Assets\NodeCanvas\Editor\Inspectors\DialogueTreeControllerInspector.cs
+Assets\NodeCanvas\Editor\Inspectors\DialogueTreeInspector.cs
+Assets\NodeCanvas\Modules\ActionListPlayer\ActionListPlayer.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\BTConnection.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\BTNode.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\BTNodeNested.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\BehaviourTree.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\BehaviourTreeExtensions.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\BehaviourTreeOwner.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\BTComposite.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\BTDecorator.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Composites\BinarySelector.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Composites\FlipSelector.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Composites\Parallel.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Composites\PrioritySelector.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Composites\ProbabilitySelector.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Composites\Selector.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Composites\Sequencer.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Composites\StepIterator.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Composites\Switch.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Decorators\ConditionalEvaluator.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Decorators\Filter.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Decorators\Guard.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Decorators\Interruptor.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Decorators\Inverter.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Decorators\Iterator.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Decorators\Merge.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Decorators\Monitor.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Decorators\Optional.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Decorators\Remapper.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Decorators\Repeater.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Decorators\Setter.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Decorators\Timeout.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Decorators\WaitUntil.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Leafs\ActionNode.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Leafs\ConditionNode.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Leafs\NestedDT.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Leafs\NestedFSM.cs
+Assets\NodeCanvas\Modules\BehaviourTrees\Nodes\Leafs\SubTree.cs
+Assets\NodeCanvas\Modules\DialogueTrees\DTConnection.cs
+Assets\NodeCanvas\Modules\DialogueTrees\DTNode.cs
+Assets\NodeCanvas\Modules\DialogueTrees\DTNodeNested.cs
+Assets\NodeCanvas\Modules\DialogueTrees\DialogueActor.cs
+Assets\NodeCanvas\Modules\DialogueTrees\DialogueActorAsset.cs
+Assets\NodeCanvas\Modules\DialogueTrees\DialogueEventArguments.cs
+Assets\NodeCanvas\Modules\DialogueTrees\DialogueGUI\DialogueUGUI.cs
+Assets\NodeCanvas\Modules\DialogueTrees\DialogueTree.cs
+Assets\NodeCanvas\Modules\DialogueTrees\DialogueTreeController.cs
+Assets\NodeCanvas\Modules\DialogueTrees\IDialogueActor.cs
+Assets\NodeCanvas\Modules\DialogueTrees\IStatement.cs
+Assets\NodeCanvas\Modules\DialogueTrees\Nodes\ActionNode.cs
+Assets\NodeCanvas\Modules\DialogueTrees\Nodes\ConditionNode.cs
+Assets\NodeCanvas\Modules\DialogueTrees\Nodes\FinishNode.cs
+Assets\NodeCanvas\Modules\DialogueTrees\Nodes\Jumper.cs
+Assets\NodeCanvas\Modules\DialogueTrees\Nodes\MultipleChoiceNode.cs
+Assets\NodeCanvas\Modules\DialogueTrees\Nodes\MultipleConditionNode.cs
+Assets\NodeCanvas\Modules\DialogueTrees\Nodes\ProbabilitySelector.cs
+Assets\NodeCanvas\Modules\DialogueTrees\Nodes\StatementNode.cs
+Assets\NodeCanvas\Modules\DialogueTrees\Nodes\SubDialogueTree.cs
+Assets\NodeCanvas\Modules\StateMachines\FSM.cs
+Assets\NodeCanvas\Modules\StateMachines\FSMConnection.cs
+Assets\NodeCanvas\Modules\StateMachines\FSMNode.cs
+Assets\NodeCanvas\Modules\StateMachines\FSMNodeNested.cs
+Assets\NodeCanvas\Modules\StateMachines\FSMOwner.cs
+Assets\NodeCanvas\Modules\StateMachines\FSMState.cs
+Assets\NodeCanvas\Modules\StateMachines\FSMStateNested.cs
+Assets\NodeCanvas\Modules\StateMachines\IState.cs
+Assets\NodeCanvas\Modules\StateMachines\IStateCallbackReceiver.cs
+Assets\NodeCanvas\Modules\StateMachines\Nodes\ActionState.cs
+Assets\NodeCanvas\Modules\StateMachines\Nodes\AnyState.cs
+Assets\NodeCanvas\Modules\StateMachines\Nodes\ConcurrentSubFSM.cs
+Assets\NodeCanvas\Modules\StateMachines\Nodes\ConcurrentSubTree.cs
+Assets\NodeCanvas\Modules\StateMachines\Nodes\EmptyState.cs
+Assets\NodeCanvas\Modules\StateMachines\Nodes\NestedBTState.cs
+Assets\NodeCanvas\Modules\StateMachines\Nodes\NestedDTState.cs
+Assets\NodeCanvas\Modules\StateMachines\Nodes\NestedFSMState.cs
+Assets\NodeCanvas\Modules\StateMachines\Nodes\OnFSMEnter.cs
+Assets\NodeCanvas\Modules\StateMachines\Nodes\OnFSMExit.cs
+Assets\NodeCanvas\Modules\StateMachines\Nodes\OnFSMUpdate.cs
+Assets\NodeCanvas\Modules\StateMachines\Nodes\SuperActionState.cs
+"Assets\NodeCanvas\Tasks\Actions\Animation (Legacy)\PlayAnimationAdvanced.cs"
+"Assets\NodeCanvas\Tasks\Actions\Animation (Legacy)\PlayAnimationSimple.cs"
+Assets\NodeCanvas\Tasks\Actions\Animator\MecanimPlayAnimation.cs
+Assets\NodeCanvas\Tasks\Actions\Animator\MecanimSetBool.cs
+Assets\NodeCanvas\Tasks\Actions\Animator\MecanimSetFloat.cs
+Assets\NodeCanvas\Tasks\Actions\Animator\MecanimSetIK.cs
+Assets\NodeCanvas\Tasks\Actions\Animator\MecanimSetInt.cs
+Assets\NodeCanvas\Tasks\Actions\Animator\MecanimSetLayerWeight.cs
+Assets\NodeCanvas\Tasks\Actions\Animator\MecanimSetLookAt.cs
+Assets\NodeCanvas\Tasks\Actions\Animator\MecanimSetTrigger.cs
+Assets\NodeCanvas\Tasks\Actions\Application\LoadScene.cs
+Assets\NodeCanvas\Tasks\Actions\Audio\PlayAudioAtPosition.cs
+Assets\NodeCanvas\Tasks\Actions\Blackboard\ComposeVector.cs
+Assets\NodeCanvas\Tasks\Actions\Blackboard\DecomposeVector.cs
+"Assets\NodeCanvas\Tasks\Actions\Blackboard\Dictionary Specific\AddElementToDictionary.cs"
+"Assets\NodeCanvas\Tasks\Actions\Blackboard\Dictionary Specific\GetDictionaryElement.cs"
+Assets\NodeCanvas\Tasks\Actions\Blackboard\EvaluateCurve.cs
+"Assets\NodeCanvas\Tasks\Actions\Blackboard\Get Self.cs"
+Assets\NodeCanvas\Tasks\Actions\Blackboard\GetOtherBlackboardVariable.cs
+Assets\NodeCanvas\Tasks\Actions\Blackboard\GetToString.cs
+"Assets\NodeCanvas\Tasks\Actions\Blackboard\List Specific\AddElementToList.cs"
+"Assets\NodeCanvas\Tasks\Actions\Blackboard\List Specific\ClearList.cs"
+"Assets\NodeCanvas\Tasks\Actions\Blackboard\List Specific\GetCloserGameObjectInList.cs"
+"Assets\NodeCanvas\Tasks\Actions\Blackboard\List Specific\GetIndexOfElement.cs"
+"Assets\NodeCanvas\Tasks\Actions\Blackboard\List Specific\GetListCount.cs"
+"Assets\NodeCanvas\Tasks\Actions\Blackboard\List Specific\InsertElementToList.cs"
+"Assets\NodeCanvas\Tasks\Actions\Blackboard\List Specific\PickListElement.cs"
+"Assets\NodeCanvas\Tasks\Actions\Blackboard\List Specific\PickRandomListElement.cs"
+"Assets\NodeCanvas\Tasks\Actions\Blackboard\List Specific\RemoveElementFromList.cs"
+"Assets\NodeCanvas\Tasks\Actions\Blackboard\List Specific\SetListElement.cs"
+"Assets\NodeCanvas\Tasks\Actions\Blackboard\List Specific\ShuffleList.cs"
+"Assets\NodeCanvas\Tasks\Actions\Blackboard\List Specific\SortGameObjectListByDistance.cs"
+Assets\NodeCanvas\Tasks\Actions\Blackboard\LoadBlackboard.cs
+Assets\NodeCanvas\Tasks\Actions\Blackboard\NormalizeVector.cs
+Assets\NodeCanvas\Tasks\Actions\Blackboard\SampleCurve.cs
+Assets\NodeCanvas\Tasks\Actions\Blackboard\SaveBlackboard.cs
+Assets\NodeCanvas\Tasks\Actions\Blackboard\SetBoolean.cs
+Assets\NodeCanvas\Tasks\Actions\Blackboard\SetBooleanRandom.cs
+Assets\NodeCanvas\Tasks\Actions\Blackboard\SetEnum.cs
+Assets\NodeCanvas\Tasks\Actions\Blackboard\SetEnumFlag.cs
+Assets\NodeCanvas\Tasks\Actions\Blackboard\SetFloat.cs
+Assets\NodeCanvas\Tasks\Actions\Blackboard\SetFloatRandom.cs
+Assets\NodeCanvas\Tasks\Actions\Blackboard\SetInt.cs
+Assets\NodeCanvas\Tasks\Actions\Blackboard\SetIntRandom.cs
+Assets\NodeCanvas\Tasks\Actions\Blackboard\SetOtherBlackboardVariable.cs
+Assets\NodeCanvas\Tasks\Actions\Blackboard\SetVariable.cs
+Assets\NodeCanvas\Tasks\Actions\Blackboard\SetVector3.cs
+Assets\NodeCanvas\Tasks\Actions\Blackboard\TriggerBoolean.cs
+Assets\NodeCanvas\Tasks\Actions\Camera\CameraFader.cs
+Assets\NodeCanvas\Tasks\Actions\Camera\FadeIn.cs
+Assets\NodeCanvas\Tasks\Actions\Camera\FadeOut.cs
+Assets\NodeCanvas\Tasks\Actions\Dialogue\Say.cs
+Assets\NodeCanvas\Tasks\Actions\Dialogue\SayRandom.cs
+Assets\NodeCanvas\Tasks\Actions\Dialogue\StartDialogueTree.cs
+Assets\NodeCanvas\Tasks\Actions\GameObject\CreateGameObject.cs
+Assets\NodeCanvas\Tasks\Actions\GameObject\CreatePrimitive.cs
+Assets\NodeCanvas\Tasks\Actions\GameObject\DestroyGameObject.cs
+Assets\NodeCanvas\Tasks\Actions\GameObject\FindAllWithLayer.cs
+Assets\NodeCanvas\Tasks\Actions\GameObject\FindAllWithName.cs
+Assets\NodeCanvas\Tasks\Actions\GameObject\FindAllWithTag.cs
+Assets\NodeCanvas\Tasks\Actions\GameObject\FindChildByName.cs
+Assets\NodeCanvas\Tasks\Actions\GameObject\FindClosestWithTag.cs
+Assets\NodeCanvas\Tasks\Actions\GameObject\FindObjectOfType.cs
+Assets\NodeCanvas\Tasks\Actions\GameObject\FindObjectsOfType.cs
+Assets\NodeCanvas\Tasks\Actions\GameObject\FindWithName.cs
+Assets\NodeCanvas\Tasks\Actions\GameObject\FindWithTag.cs
+Assets\NodeCanvas\Tasks\Actions\GameObject\GetAllChildGameObjects.cs
+Assets\NodeCanvas\Tasks\Actions\GameObject\GetComponent.cs
+Assets\NodeCanvas\Tasks\Actions\GameObject\GetDistance.cs
+Assets\NodeCanvas\Tasks\Actions\GameObject\GetGameObjectPosition.cs
+Assets\NodeCanvas\Tasks\Actions\GameObject\InstantiateGameObject.cs
+Assets\NodeCanvas\Tasks\Actions\GameObject\LookAt.cs
+Assets\NodeCanvas\Tasks\Actions\GameObject\RemoveComponent.cs
+Assets\NodeCanvas\Tasks\Actions\GameObject\SetObjectActive.cs
+Assets\NodeCanvas\Tasks\Actions\GameObject\SetObjectEnabled.cs
+Assets\NodeCanvas\Tasks\Actions\GameObject\SetObjectVisibility.cs
+Assets\NodeCanvas\Tasks\Actions\Input\GetInputAxis.cs
+Assets\NodeCanvas\Tasks\Actions\Input\GetMousePosition.cs
+Assets\NodeCanvas\Tasks\Actions\Input\GetMouseScrollDelta.cs
+Assets\NodeCanvas\Tasks\Actions\Input\WaitMousePick.cs
+Assets\NodeCanvas\Tasks\Actions\Input\WaitMousePick2D.cs
+Assets\NodeCanvas\Tasks\Actions\Movement\Direct\CurveTransformTween.cs
+Assets\NodeCanvas\Tasks\Actions\Movement\Direct\InputMove.cs
+Assets\NodeCanvas\Tasks\Actions\Movement\Direct\MoveAway.cs
+Assets\NodeCanvas\Tasks\Actions\Movement\Direct\MoveTowards.cs
+Assets\NodeCanvas\Tasks\Actions\Movement\Direct\RotateAway.cs
+Assets\NodeCanvas\Tasks\Actions\Movement\Direct\RotateTowards.cs
+Assets\NodeCanvas\Tasks\Actions\Movement\Pathfinding\FindClosestEdge.cs
+Assets\NodeCanvas\Tasks\Actions\Movement\Pathfinding\Flee.cs
+Assets\NodeCanvas\Tasks\Actions\Movement\Pathfinding\MoveToGameObject.cs
+Assets\NodeCanvas\Tasks\Actions\Movement\Pathfinding\MoveToPosition.cs
+Assets\NodeCanvas\Tasks\Actions\Movement\Pathfinding\Patrol.cs
+Assets\NodeCanvas\Tasks\Actions\Movement\Pathfinding\Wander.cs
+Assets\NodeCanvas\Tasks\Actions\Physics\GetLinecastInfo.cs
+Assets\NodeCanvas\Tasks\Actions\Physics\GetLinecastInfo2D.cs
+Assets\NodeCanvas\Tasks\Actions\Physics\GetLinecastInfo2DAll.cs
+Assets\NodeCanvas\Tasks\Actions\Physics\GetOverlapSphereObjects.cs
+Assets\NodeCanvas\Tasks\Actions\ScriptControl\ExecuteFunction_Multiplatform.cs
+Assets\NodeCanvas\Tasks\Actions\ScriptControl\GetField.cs
+Assets\NodeCanvas\Tasks\Actions\ScriptControl\GetProperty_Multiplatform.cs
+Assets\NodeCanvas\Tasks\Actions\ScriptControl\ImplementedAction_Multiplatform.cs
+Assets\NodeCanvas\Tasks\Actions\ScriptControl\SendMessage.cs
+Assets\NodeCanvas\Tasks\Actions\ScriptControl\SendMessageToType.cs
+Assets\NodeCanvas\Tasks\Actions\ScriptControl\SetField.cs
+Assets\NodeCanvas\Tasks\Actions\ScriptControl\SetProperty_Multiplatform.cs
+Assets\NodeCanvas\Tasks\Actions\ScriptControl\Standalone\ExecuteFunction.cs
+Assets\NodeCanvas\Tasks\Actions\ScriptControl\Standalone\GetProperty.cs
+Assets\NodeCanvas\Tasks\Actions\ScriptControl\Standalone\ImplementedAction.cs
+Assets\NodeCanvas\Tasks\Actions\ScriptControl\Standalone\SetProperty.cs
+Assets\NodeCanvas\Tasks\Actions\Utility\DebugBeep.cs
+Assets\NodeCanvas\Tasks\Actions\Utility\DebugDrawLine.cs
+Assets\NodeCanvas\Tasks\Actions\Utility\DebugLogText.cs
+Assets\NodeCanvas\Tasks\Actions\Utility\DebugLogVariable.cs
+Assets\NodeCanvas\Tasks\Actions\Utility\ForceFinishGraph.cs
+Assets\NodeCanvas\Tasks\Actions\Utility\GraphOwnerControl.cs
+Assets\NodeCanvas\Tasks\Actions\Utility\InvokeSignal.cs
+Assets\NodeCanvas\Tasks\Actions\Utility\RunForever.cs
+Assets\NodeCanvas\Tasks\Actions\Utility\SendEvent.cs
+Assets\NodeCanvas\Tasks\Actions\Utility\SendEventToObjects.cs
+Assets\NodeCanvas\Tasks\Actions\Utility\ShoutEvent.cs
+Assets\NodeCanvas\Tasks\Actions\Utility\SwitchBehaviour.cs
+Assets\NodeCanvas\Tasks\Actions\Utility\Wait.cs
+Assets\NodeCanvas\Tasks\Conditions\Animator\MecanimCheckBool.cs
+Assets\NodeCanvas\Tasks\Conditions\Animator\MecanimCheckFloat.cs
+Assets\NodeCanvas\Tasks\Conditions\Animator\MecanimCheckInt.cs
+Assets\NodeCanvas\Tasks\Conditions\Animator\MecanimIsInTransition.cs
+Assets\NodeCanvas\Tasks\Conditions\Blackboard\CheckBoolean.cs
+Assets\NodeCanvas\Tasks\Conditions\Blackboard\CheckBooleanTrigger.cs
+Assets\NodeCanvas\Tasks\Conditions\Blackboard\CheckEnum.cs
+Assets\NodeCanvas\Tasks\Conditions\Blackboard\CheckEnumFlag.cs
+Assets\NodeCanvas\Tasks\Conditions\Blackboard\CheckFloat.cs
+Assets\NodeCanvas\Tasks\Conditions\Blackboard\CheckInt.cs
+Assets\NodeCanvas\Tasks\Conditions\Blackboard\CheckNull.cs
+Assets\NodeCanvas\Tasks\Conditions\Blackboard\CheckString.cs
+Assets\NodeCanvas\Tasks\Conditions\Blackboard\CheckUnityObject.cs
+Assets\NodeCanvas\Tasks\Conditions\Blackboard\CheckVariable.cs
+Assets\NodeCanvas\Tasks\Conditions\Blackboard\CheckVectorDistance.cs
+Assets\NodeCanvas\Tasks\Conditions\Blackboard\Dictionaries\TryGetValue.cs
+Assets\NodeCanvas\Tasks\Conditions\Blackboard\Lists\ListContainsElement.cs
+Assets\NodeCanvas\Tasks\Conditions\Blackboard\Lists\ListIsEmpty.cs
+Assets\NodeCanvas\Tasks\Conditions\Blackboard\OnVariableChange.cs
+Assets\NodeCanvas\Tasks\Conditions\Blackboard\StringContains.cs
+Assets\NodeCanvas\Tasks\Conditions\GameObject\CanSeeTarget.cs
+Assets\NodeCanvas\Tasks\Conditions\GameObject\CanSeeTarget2D.cs
+Assets\NodeCanvas\Tasks\Conditions\GameObject\CanSeeTargetAny.cs
+Assets\NodeCanvas\Tasks\Conditions\GameObject\CanSeeTargetAny2D.cs
+Assets\NodeCanvas\Tasks\Conditions\GameObject\CheckDistanceToGameObject.cs
+Assets\NodeCanvas\Tasks\Conditions\GameObject\CheckDistanceToGameObject2D.cs
+Assets\NodeCanvas\Tasks\Conditions\GameObject\CheckDistanceToGameObjectAny.cs
+Assets\NodeCanvas\Tasks\Conditions\GameObject\CheckDistanceToGameObjectAny2D.cs
+Assets\NodeCanvas\Tasks\Conditions\GameObject\CheckLOS.cs
+Assets\NodeCanvas\Tasks\Conditions\GameObject\CheckLOS2D.cs
+Assets\NodeCanvas\Tasks\Conditions\GameObject\CheckSpeed.cs
+Assets\NodeCanvas\Tasks\Conditions\GameObject\HasComponent.cs
+Assets\NodeCanvas\Tasks\Conditions\GameObject\IsActive.cs
+Assets\NodeCanvas\Tasks\Conditions\GameObject\IsInFront.cs
+Assets\NodeCanvas\Tasks\Conditions\GameObject\IsInFront2D.cs
+Assets\NodeCanvas\Tasks\Conditions\GameObject\IsWithinLayerMask.cs
+Assets\NodeCanvas\Tasks\Conditions\Input\CheckButtonInput.cs
+Assets\NodeCanvas\Tasks\Conditions\Input\CheckKeyboardInput.cs
+Assets\NodeCanvas\Tasks\Conditions\Input\CheckMousePick.cs
+Assets\NodeCanvas\Tasks\Conditions\Input\CheckMousePick2D.cs
+Assets\NodeCanvas\Tasks\Conditions\Movement\PathExists.cs
+Assets\NodeCanvas\Tasks\Conditions\ScriptControl\CheckCSharpEvent.cs
+Assets\NodeCanvas\Tasks\Conditions\ScriptControl\CheckField.cs
+Assets\NodeCanvas\Tasks\Conditions\ScriptControl\CheckFunction_Multiplatform.cs
+Assets\NodeCanvas\Tasks\Conditions\ScriptControl\CheckProperty_Multiplatform.cs
+Assets\NodeCanvas\Tasks\Conditions\ScriptControl\CheckUnityEvent.cs
+Assets\NodeCanvas\Tasks\Conditions\ScriptControl\Standalone\CheckFunction.cs
+Assets\NodeCanvas\Tasks\Conditions\ScriptControl\Standalone\CheckProperty.cs
+Assets\NodeCanvas\Tasks\Conditions\SystemEvents\CheckCollision.cs
+Assets\NodeCanvas\Tasks\Conditions\SystemEvents\CheckCollision2D.cs
+Assets\NodeCanvas\Tasks\Conditions\SystemEvents\CheckMouse.cs
+Assets\NodeCanvas\Tasks\Conditions\SystemEvents\CheckMouse2D.cs
+Assets\NodeCanvas\Tasks\Conditions\SystemEvents\CheckMouseClick.cs
+Assets\NodeCanvas\Tasks\Conditions\SystemEvents\CheckMouseClick2D.cs
+Assets\NodeCanvas\Tasks\Conditions\SystemEvents\CheckTrigger.cs
+Assets\NodeCanvas\Tasks\Conditions\SystemEvents\CheckTrigger2D.cs
+Assets\NodeCanvas\Tasks\Conditions\UGUI\ButtonClicked.cs
+Assets\NodeCanvas\Tasks\Conditions\UGUI\InterceptEvent.cs
+Assets\NodeCanvas\Tasks\Conditions\Utility\CheckEvent.cs
+Assets\NodeCanvas\Tasks\Conditions\Utility\CheckEventValue.cs
+Assets\NodeCanvas\Tasks\Conditions\Utility\CheckSignal.cs
+Assets\NodeCanvas\Tasks\Conditions\Utility\CheckStateStatus.cs
+Assets\NodeCanvas\Tasks\Conditions\Utility\DebugCondition.cs
+Assets\NodeCanvas\Tasks\Conditions\Utility\Probability.cs
+Assets\NodeCanvas\Tasks\Conditions\Utility\Timeout.cs
+Assets\NodeCanvas\_DeprecatedFiles\Legacy_ConcurrentState.cs
+Assets\NodeCanvas\_DeprecatedFiles\Legacy_EnterExitState.cs
+Assets\NodeCanvas\_DeprecatedFiles\Legacy_EventReceiverAttribute.cs
+Assets\NodeCanvas\_DeprecatedFiles\Legacy_ExecuteStaticFunction.cs
+Assets\NodeCanvas\_DeprecatedFiles\Legacy_ExecuteStaticFunction_Multiplatform.cs
+Assets\NodeCanvas\_DeprecatedFiles\Legacy_GoToNode.cs
+Assets\NodeCanvas\_DeprecatedFiles\Legacy_NodeToggler.cs
+Assets\NodeCanvas\_DeprecatedFiles\Legacy_RootSwitcher.cs

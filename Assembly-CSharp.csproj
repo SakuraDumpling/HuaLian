@@ -69,6 +69,7 @@
     <Compile Include="Assets\脚本\Enemy.cs" />
     <Compile Include="Assets\脚本\EnemyBat.cs" />
     <Compile Include="Assets\脚本\EnemySmartBat.cs" />
+    <Compile Include="Assets\脚本\FadeIn.cs" />
     <Compile Include="Assets\脚本\GameCortroller.cs" />
     <Compile Include="Assets\脚本\GameStart.cs" />
     <Compile Include="Assets\脚本\HealthBar.cs" />
