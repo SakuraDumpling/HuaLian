@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D1371715-BD84-D58A-F91F-F5555BFCAB7B}</ProjectGuid>
+    <ProjectGuid>{FA6076C9-6AF4-9679-87BB-65700C948C09}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,48 +53,49 @@
     <UnityVersion>2019.4.34f1c1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\脚本\AnimControllerX.cs" />
-    <Compile Include="Assets\脚本\AnimControllerY.cs" />
-    <Compile Include="Assets\脚本\AnimEnter.cs" />
-    <Compile Include="Assets\脚本\AudioManager.cs" />
-    <Compile Include="Assets\脚本\BackGround.cs" />
-    <Compile Include="Assets\脚本\Base.cs" />
-    <Compile Include="Assets\脚本\BaseMap.cs" />
-    <Compile Include="Assets\脚本\CameraFollow.cs" />
-    <Compile Include="Assets\脚本\CoinItem.cs" />
-    <Compile Include="Assets\脚本\CoinUI.cs" />
-    <Compile Include="Assets\脚本\CutsceneCortroller.cs" />
-    <Compile Include="Assets\脚本\DoorToNextLevel.cs" />
-    <Compile Include="Assets\脚本\DoorToPreviousLevel.cs" />
-    <Compile Include="Assets\脚本\Enemy.cs" />
-    <Compile Include="Assets\脚本\EnemyBat.cs" />
-    <Compile Include="Assets\脚本\EnemySmartBat.cs" />
-    <Compile Include="Assets\脚本\FadeIn.cs" />
-    <Compile Include="Assets\脚本\GameCortroller.cs" />
-    <Compile Include="Assets\脚本\GameStart.cs" />
-    <Compile Include="Assets\脚本\HealthBar.cs" />
-    <Compile Include="Assets\脚本\HideSpike.cs" />
-    <Compile Include="Assets\脚本\HideSpikeBox.cs" />
-    <Compile Include="Assets\脚本\InitButton.cs" />
-    <Compile Include="Assets\脚本\MainMenu.cs" />
-    <Compile Include="Assets\脚本\MainMenuFloat.cs" />
-    <Compile Include="Assets\脚本\MainMenuRotate.cs" />
-    <Compile Include="Assets\脚本\MainMenuZoom.cs" />
-    <Compile Include="Assets\脚本\PauseMenu.cs" />
-    <Compile Include="Assets\脚本\PlayAttack.cs" />
-    <Compile Include="Assets\脚本\PlayerController.cs" />
-    <Compile Include="Assets\脚本\PlayerHealth.cs" />
-    <Compile Include="Assets\脚本\Randombox.cs" />
-    <Compile Include="Assets\脚本\SceneLoader.cs" />
-    <Compile Include="Assets\脚本\ScreenFlash.cs" />
-    <Compile Include="Assets\脚本\Sign.cs" />
-    <Compile Include="Assets\脚本\Sound.cs" />
-    <Compile Include="Assets\脚本\Spike1.cs" />
-    <Compile Include="Assets\脚本\TreasureBox.cs" />
-    <Compile Include="Assets\脚本\TreasureDialogue.cs" />
-    <Compile Include="Assets\脚本\UIManager.cs" />
-    <Compile Include="Assets\脚本\VoiceUIController.cs" />
-    <Compile Include="Assets\脚本\XMovingPlatform.cs" />
+    <Compile Include="Assets\Script\AnimControllerX.cs" />
+    <Compile Include="Assets\Script\AnimControllerY.cs" />
+    <Compile Include="Assets\Script\AnimEnter.cs" />
+    <Compile Include="Assets\Script\AudioManager.cs" />
+    <Compile Include="Assets\Script\BackGround.cs" />
+    <Compile Include="Assets\Script\Base.cs" />
+    <Compile Include="Assets\Script\BaseMap.cs" />
+    <Compile Include="Assets\Script\CameraFollow.cs" />
+    <Compile Include="Assets\Script\CoinItem.cs" />
+    <Compile Include="Assets\Script\CoinUI.cs" />
+    <Compile Include="Assets\Script\CutsceneCortroller.cs" />
+    <Compile Include="Assets\Script\DoorToNextLevel.cs" />
+    <Compile Include="Assets\Script\DoorToPreviousLevel.cs" />
+    <Compile Include="Assets\Script\Enemy.cs" />
+    <Compile Include="Assets\Script\EnemyBat.cs" />
+    <Compile Include="Assets\Script\EnemySmartBat.cs" />
+    <Compile Include="Assets\Script\FadeIn.cs" />
+    <Compile Include="Assets\Script\GameCortroller.cs" />
+    <Compile Include="Assets\Script\GameStart.cs" />
+    <Compile Include="Assets\Script\HealthBar.cs" />
+    <Compile Include="Assets\Script\HideSpike.cs" />
+    <Compile Include="Assets\Script\HideSpikeBox.cs" />
+    <Compile Include="Assets\Script\InitButton.cs" />
+    <Compile Include="Assets\Script\MainMenu.cs" />
+    <Compile Include="Assets\Script\MainMenuFloat.cs" />
+    <Compile Include="Assets\Script\MainMenuRotate.cs" />
+    <Compile Include="Assets\Script\MainMenuZoom.cs" />
+    <Compile Include="Assets\Script\PauseMenu.cs" />
+    <Compile Include="Assets\Script\PlayAttack.cs" />
+    <Compile Include="Assets\Script\PlayerAttack.cs" />
+    <Compile Include="Assets\Script\PlayerController.cs" />
+    <Compile Include="Assets\Script\PlayerHealth.cs" />
+    <Compile Include="Assets\Script\Randombox.cs" />
+    <Compile Include="Assets\Script\SceneLoader.cs" />
+    <Compile Include="Assets\Script\ScreenFlash.cs" />
+    <Compile Include="Assets\Script\Sign.cs" />
+    <Compile Include="Assets\Script\Sound.cs" />
+    <Compile Include="Assets\Script\Spike1.cs" />
+    <Compile Include="Assets\Script\TreasureBox.cs" />
+    <Compile Include="Assets\Script\TreasureDialogue.cs" />
+    <Compile Include="Assets\Script\UIManager.cs" />
+    <Compile Include="Assets\Script\VoiceUIController.cs" />
+    <Compile Include="Assets\Script\XMovingPlatform.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -757,16 +758,12 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{CCDB46D5-66EF-6CEB-BFCB-BD43730EF24C}</Project>
+      <Project>{D4D62B36-C882-2F93-4558-887AC37CBD22}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="ParadoxNotion.csproj">
-      <Project>{471B69B9-49BF-8C6C-E259-77174D5DB318}</Project>
+      <Project>{AD3A5B30-6C42-57B3-6A4B-4A9D016D8B85}</Project>
       <Name>ParadoxNotion</Name>
-    </ProjectReference>
-    <ProjectReference Include="NodeCanvas.csproj">
-      <Project>{98DE65E5-1C10-C9FE-9D19-54CEA050C31D}</Project>
-      <Name>NodeCanvas</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

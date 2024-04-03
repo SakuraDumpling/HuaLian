@@ -158,11 +158,11 @@ namespace NodeCanvas.Framework
         abstract public System.Type outConnectionType { get; }
         ///<summary>Can this node be set as prime (Start)?</summary>
         abstract public bool allowAsPrime { get; }
-        ///<summary>Can this node connect to itself?</summary>
+        // /Can this node connect to itself?
         abstract public bool canSelfConnect { get; }
-        ///<summary>Alignment of the comments when shown (editor).</summary>
+        ///<summary>Alignment of the comments when shown.</summary>
         abstract public Alignment2x2 commentsAlignment { get; }
-        ///<summary>Alignment of the icons (editor).</summary>
+        ///<summary>Alignment of the icons.</summary>
         abstract public Alignment2x2 iconAlignment { get; }
 
         ///<summary>The current status of the node</summary>
@@ -423,6 +423,7 @@ namespace NodeCanvas.Framework
             if ( MonoManager.current != null ) { MonoManager.current.StopCoroutine(routine); }
         }
 
+
         ///<summary>Returns all *direct* parent nodes (first depth level)</summary>
         public IEnumerable<Node> GetParentNodes() {
             if ( inConnections.Count != 0 ) {
@@ -452,7 +453,7 @@ namespace NodeCanvas.Framework
         ///----------------------------------------------------------------------------------------------
 
         ///<summary>Returns a warning string or null if none</summary>
-        virtual protected string GetWarningOrError() {
+        virtual internal string GetWarningOrError() {
             var hardError = GetHardError();
             if ( hardError != null ) { return "* " + hardError; }
 
