@@ -107,10 +107,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -379,9 +377,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11810}
     - Class: 114
+      Script: {instanceID: 11844}
+    - Class: 114
       Script: {instanceID: 12014}
     - Class: 114
       Script: {instanceID: 12304}
+    - Class: 114
+      Script: {instanceID: 12402}
     - Class: 114
       Script: {instanceID: 12408}
     - Class: 114
@@ -409,6 +411,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13910}
     - Class: 114
+      Script: {instanceID: 14032}
+    - Class: 114
       Script: {instanceID: 14144}
     - Class: 114
       Script: {instanceID: 14704}
@@ -421,17 +425,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 15334}
     - Class: 114
+      Script: {instanceID: 15470}
+    - Class: 114
       Script: {instanceID: 15622}
     - Class: 114
       Script: {instanceID: 16108}
     - Class: 114
       Script: {instanceID: 16256}
     - Class: 114
+      Script: {instanceID: 16446}
+    - Class: 114
       Script: {instanceID: 16504}
     - Class: 114
       Script: {instanceID: 16644}
     - Class: 114
       Script: {instanceID: 16868}
+    - Class: 114
+      Script: {instanceID: 17108}
     - Class: 114
       Script: {instanceID: 17302}
     - Class: 114
@@ -993,6 +1003,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12304}
     - Class: 114
+      Script: {instanceID: 12402}
+    - Class: 114
       Script: {instanceID: 12502}
     - Class: 114
       Script: {instanceID: 12644}
@@ -1038,6 +1050,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 16504}
     - Class: 114
       Script: {instanceID: 16868}
+    - Class: 114
+      Script: {instanceID: 17108}
     - Class: 114
       Script: {instanceID: 17498}
     - Class: 114
@@ -2828,4 +2842,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Story1.unity
   - Assets/Scenes/Scene2.unity
   - Assets/Scenes/EndMenu.unity
-  playerPath: "F:/\u5B66\u4E60\u7C7B/\u6E38\u620F\u7C7B/\u82B1\u601C\u6E38\u620Fdemo\u5B58\u653E\u5730/\u6D4B\u8BD5demo6/study.exe"
+  playerPath: "F:/\u5B66\u4E60\u7C7B/\u6E38\u620F\u7C7B/\u82B1\u601C\u6E38\u620Fdemo\u5B58\u653E\u5730/\u6D4B\u8BD5demo8/study.exe"
